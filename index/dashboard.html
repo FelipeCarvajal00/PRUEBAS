@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Panel - GreenGrowth S.A.</title>
+</head>
+<body style="margin:0; font-family: Arial, sans-serif;">
+
+  <!-- Encabezado -->
+  <div style="background-color: #7AC74F; color: white; padding: 10px; display: flex; justify-content: space-between; align-items: center;">
+    <div style="display: flex; align-items: center;">
+      <img src="https://cdn-icons-png.flaticon.com/512/427/427735.png" alt="hoja" style="width: 24px; height: 24px; margin-right: 10px;">
+      <b>Vivero Vital</b>
+    </div>
+    <div style="display:flex; align-items:center;">
+      <label style="position: relative; display: inline-block; width: 50px; height: 25px; margin-right: 15px;">
+        <input type="checkbox" checked style="opacity: 0; width: 0; height: 0;">
+        <span style="position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #00cc66; border-radius: 34px;">
+          <span style="position: absolute; height: 21px; width: 21px; left: 2px; bottom: 2px; background-color: white; border-radius: 50%;"></span>
+        </span>
+      </label>
+      <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" style="width: 30px; height: 30px;">
+      <span style="margin-left: 15px;">&#x2212; &#9633; &#10006;</span>
+    </div>
+  </div>
+
+  <!-- Buscador -->
+  <div style="padding: 15px; text-align:center;">
+    <input type="text" placeholder="🔍 Search" style="width: 300px; padding: 8px; border-radius: 5px; border: 1px solid #aaa;">
+  </div>
+
+  <!-- Navegación -->
+  <div style="text-align: center; margin-bottom: 20px;">
+    <a href="#" style="padding: 10px; margin: 5px; background-color: #f8f8dd; text-decoration: none; border: 1px solid #aaa;">Registrar invernaderos</a>
+    <a href="#" style="padding: 10px; margin: 5px; background-color: #f8f8dd; text-decoration: none; border: 1px solid #aaa;">Control invernaderos</a>
+    <a href="#" style="padding: 10px; margin: 5px; background-color: #f8f8dd; text-decoration: none; border: 1px solid #aaa;">Control de humedad</a>
+    <a href="#" style="padding: 10px; margin: 5px; background-color: #f8f8dd; text-decoration: none; border: 1px solid #aaa;">Control de piso</a>
+    <a href="#" style="padding: 10px; margin: 5px; background-color: #f8f8dd; text-decoration: none; border: 1px solid #aaa;">Enfermedades</a>
+  </div>
+
+  <!-- Filtro -->
+  <div style="margin-left: 40px; font-weight: bold; color: #333;">Filtrar: Invernaderos ▼</div>
+
+  <!-- Tarjetas -->
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; margin: 30px; gap: 30px;">
+
+    <!-- Invernadero Las Flores -->
+    <div style="border: 1px solid #888; padding: 20px; border-radius: 8px; width: 300px;">
+      <h3>Invernadero Las Flores</h3>
+      <table>
+        <tr><td><b>Ubicación:</b></td><td>Este</td></tr>
+        <tr><td><b>Tipo:</b></td><td>Hortalizas</td></tr>
+        <tr><td><b>Sistema:</b></td><td>Manual</td></tr>
+        <tr><td><b>Estado:</b></td><td>🟢 Activo</td></tr>
+      </table>
+      <img src="https://i.imgur.com/LEm7TLI.png" style="width: 100px; margin-top: 10px;"><br>
+      <a href="#" style="padding: 6px 12px; background-color: green; color: white; text-decoration: none;">Guardar</a>
+      <a href="#" style="padding: 6px 12px; background-color: red; color: white; text-decoration: none;">Cancelar</a>
+    </div>
+
+    <!-- Invernadero Los Andes (con enlace a la vista de edición) -->
+    <a href="editar_invernadero.html" style="text-decoration: none; color: inherit;">
+      <div style="border: 1px solid #888; padding: 20px; border-radius: 8px; width: 300px;">
+        <h3>Invernadero Los Andes</h3>
+        <table>
+          <tr><td><b>Producción:</b></td><td>2000 tomates</td></tr>
+          <tr><td><b>Sistema:</b></td><td>Automatizado</td></tr>
+          <tr><td><b>Estado:</b></td><td>🔴 Mantenimiento</td></tr>
+        </table>
+        <img src="https://i.imgur.com/LEm7TLI.png" style="width: 100px; margin-top: 10px;"><br>
+        <span style="padding: 6px 12px; background-color: green; color: white;">Guardar</span>
+        <span style="padding: 6px 12px; background-color: red; color: white;">Cancelar</span>
+      </div>
+    </a>
+
+  </div>
+
+  <!-- Pie de página -->
+  <div style="background-color: #FFC75F; padding: 15px; text-align: right;">
+    <b style="margin-right: 20px;">Menu</b>
+  </div>
+
+</body>
+</html>
